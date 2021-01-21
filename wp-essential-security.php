@@ -16,5 +16,6 @@ defined('ABSPATH') or die('Access restricted.');
 require_once('inc/WpEssentialSecurity.php');
 
 require_once('inc/actions/DisableComments.php');
+require_once('inc/actions/RemoveVersionNumber.php');
 
 if (class_exists('WpEssentialSecurity')) $wp_essential_security = new WpEssentialSecurity();
