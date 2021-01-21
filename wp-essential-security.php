@@ -22,5 +22,6 @@ require_once('inc/actions/RemoveVersionNumber.php');
 require_once('inc/actions/ChangeLoginErrors.php');
 require_once('inc/actions/DisableLoginByEmail.php');
 require_once('inc/actions/DisableDashboardAccess.php');
+require_once('inc/actions/DisableRSSFeed.php');
 
 if (class_exists('WpEssentialSecurity')) $wp_essential_security = new WpEssentialSecurity();
