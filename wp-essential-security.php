@@ -13,9 +13,12 @@
 
 defined('ABSPATH') or die('Access restricted.');
 
+require_once('inc/assets/constants.php');
+
 require_once('inc/WpEssentialSecurity.php');
 
 require_once('inc/actions/DisableComments.php');
 require_once('inc/actions/RemoveVersionNumber.php');
+require_once('inc/actions/ChangeLoginErrors.php');
 
 if (class_exists('WpEssentialSecurity')) $wp_essential_security = new WpEssentialSecurity();
