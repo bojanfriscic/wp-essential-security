@@ -9,5 +9,6 @@ class WpEssentialSecurity
     $disable_login_by_email = new DisableLoginByEmail();
     $disable_dashboard_access = new DisableDashboardAccess();
     $disable_rss_feed = new DisableRSSFeed();
+    $disable_rest_api = new DisableRESTAPI();
   }
 }
