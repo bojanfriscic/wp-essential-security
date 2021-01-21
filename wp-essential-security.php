@@ -20,5 +20,6 @@ require_once('inc/WpEssentialSecurity.php');
 require_once('inc/actions/DisableComments.php');
 require_once('inc/actions/RemoveVersionNumber.php');
 require_once('inc/actions/ChangeLoginErrors.php');
+require_once('inc/actions/DisableLoginByEmail.php');
 
 if (class_exists('WpEssentialSecurity')) $wp_essential_security = new WpEssentialSecurity();
