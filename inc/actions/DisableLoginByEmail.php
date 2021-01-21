@@ -2,7 +2,7 @@
 
 class DisableLoginByEmail 
 {
-  public function __constructor() {
+  public function __construct() {
     remove_filter('authenticate', 'wp_authenticate_email_password', 20);
   }
 }

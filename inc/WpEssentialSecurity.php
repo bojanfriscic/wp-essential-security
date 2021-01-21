@@ -7,5 +7,6 @@ class WpEssentialSecurity
     $remove_version_number = new RemoveVersionNumber();
     $change_login_errors = new ChangeLoginErrors();
     $disable_login_by_email = new DisableLoginByEmail();
+    $disable_dashboard_access = new DisableDashboardAccess();
   }
 }
